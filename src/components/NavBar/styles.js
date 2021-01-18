@@ -3,7 +3,7 @@ import { COLORS } from '../../assets/css/settings/colors';
 import { GAPS } from '../../assets/css/settings/gaps';
 
 export const NavigationBar = styled.nav`
-    width: 100vw;
+    width: 100%;
     height: 80px;
     background-color: ${COLORS.primary};
     display: flex;
