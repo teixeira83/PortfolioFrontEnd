@@ -1,11 +1,7 @@
-import './App.css';
+import { NavBar } from './components/index'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      Projeto Criado
-    </div>
+    <NavBar />
   );
 }
-
-export default App;
