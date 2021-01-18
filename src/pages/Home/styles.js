@@ -3,6 +3,7 @@ import { COLORS } from '../../assets/css/settings/colors';
 import { GAPS } from '../../assets/css/settings/gaps';
 
 export const AboutMeContainer = styled.div`
+    width: 100%;
     height: 580px;
     background-color: ${COLORS.third};
     display: flex;

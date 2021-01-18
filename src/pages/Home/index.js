@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar, Banner } from '../../components/index';
+import { NavBar, Banner, Portfolio } from '../../components/index';
 import { AboutMeContainer, ImageAbout, TextContainer, Paragraph } from './styles';
 import imageAbout from '../../assets/img/about.png';
 
@@ -18,6 +18,7 @@ export default function Home() {
                     <Paragraph>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</Paragraph>
                 </TextContainer>
             </AboutMeContainer>
+            <Portfolio />
         </React.Fragment>
         
     )
