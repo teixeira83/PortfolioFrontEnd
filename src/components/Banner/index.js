@@ -1,5 +1,5 @@
 import { Container, Title, NotebookImage } from './styles';
-import notebook from '../../assets/img/notebook6.png';
+import notebook from '../../assets/img/notebook.png';
 
 export default function Banner( ) {
     return (
