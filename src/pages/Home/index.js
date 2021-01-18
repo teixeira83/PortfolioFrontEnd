@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar, Banner, Portfolio } from '../../components/index';
+import { NavBar, Banner, Portfolio, Skills } from '../../components/index';
 import { AboutMeContainer, ImageAbout, TextContainer, Paragraph } from './styles';
 import imageAbout from '../../assets/img/about.png';
 
@@ -19,6 +19,7 @@ export default function Home() {
                 </TextContainer>
             </AboutMeContainer>
             <Portfolio />
+            <Skills />
         </React.Fragment>
         
     )
