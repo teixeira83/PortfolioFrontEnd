@@ -13,8 +13,6 @@ import java from '../../assets/img/java.png';
 import spring from '../../assets/img/spring.png';
 import mongodb from '../../assets/img/mongodb.png';
 
-
-
 export default function Skills() {
     return (
         <Container>
