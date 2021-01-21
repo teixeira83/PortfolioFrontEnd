@@ -1,12 +1,13 @@
 import styled from 'styled-components';
+import { COLORS } from '../../assets/css/settings/colors';
 import { GAPS } from '../../assets/css/settings/gaps';
 
 export const Container = styled.div`
     width: 100%;
     height: 200px;
-    margin-top: ${GAPS.big};
     display: flex;
     justify-content: center;
+    background-color: ${COLORS.primary};
 `
 
 export const Icon = styled.img`

@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <Container>
             <Title>CONTATOS</Title>
-            <Text>Fique a vontade para entrar em contato. Pode ser por e-mail, whatsapp ou até mesmo pelo instagram. </Text>
+            <Text>Fique a vontade para entrar em contato comigo. Pode ser por e-mail utilizando os campos abaixo ou por alguma das minhas redes sociais. </Text>
             <FormContainer>
                 <FormContact />
             </FormContainer>

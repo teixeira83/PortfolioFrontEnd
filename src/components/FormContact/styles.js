@@ -6,6 +6,7 @@ export const Container = styled.div`
     flex-direction: row;
     justify-content:center;
     text-align: center;
+    margin-bottom: ${GAPS.big};
 `
 
 export const TextArea = styled.textarea`

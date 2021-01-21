@@ -15,6 +15,7 @@ export const Title = styled.h1`
     color: ${COLORS.secondary};
     margin-top: ${GAPS.big};
     font-size:38px;
+    font-weight: bold;
 `
 
 export const NotebookImage = styled.img`
