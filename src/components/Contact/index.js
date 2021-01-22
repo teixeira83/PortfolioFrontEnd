@@ -3,7 +3,7 @@ import { FormContact, SocialIcons } from '../index';
 
 export default function Contact() {
     return (
-        <Container>
+        <Container id="contact">
             <Title>CONTATOS</Title>
             <Text>Fique a vontade para entrar em contato comigo. Pode ser por e-mail utilizando os campos abaixo ou por alguma das minhas redes sociais. </Text>
             <FormContainer>

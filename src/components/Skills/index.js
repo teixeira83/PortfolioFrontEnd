@@ -15,7 +15,7 @@ import mongodb from '../../assets/img/mongodb.png';
 
 export default function Skills() {
     return (
-        <Container>
+        <Container id="skills">
             <Title>Habilidades</Title>
             <SkillsContainer>
                 <SkillSquare title="HTML" image={html}/>

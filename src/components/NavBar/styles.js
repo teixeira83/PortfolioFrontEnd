@@ -9,6 +9,8 @@ export const NavigationBar = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
 `
 
 export const Logo = styled.img`
@@ -19,17 +21,29 @@ export const Logo = styled.img`
 
 export const NavList = styled.ul`
     margin-right: ${GAPS.big};
+    height: 40px;
+    display: flex;
+    align-items: center;
 `
 
 export const NavListOption = styled.a`
     text-decoration: none;
     color: ${COLORS.secondary};
-    margin: 0 ${GAPS.smaller};
     font-family: Roboto, sans-serif;
-    font-weight: bold;
     font-size: 16px;
-    
+    font-weight: bold;
+    height: 70%;
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+
     &:hover {
-        border-bottom: 3px solid ${COLORS.secondary}; 
+        border-bottom: 2px solid ${COLORS.secondary};
+        font-size: 16px;
+        width: 110px;
+        background-color: ${COLORS.primary};
+        color: ${COLORS.secondary};
+        transition: 0.2s;
     }
 `
