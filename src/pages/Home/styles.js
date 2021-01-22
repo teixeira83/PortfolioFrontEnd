@@ -4,7 +4,7 @@ import { GAPS } from '../../assets/css/settings/gaps';
 
 export const AboutMeContainer = styled.div`
     width: 100%;
-    height: 580px;
+    height: 98vh;
     background-color: ${COLORS.third};
     display: flex;
     justify-content: space-between;

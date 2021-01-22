@@ -4,7 +4,7 @@ import { GAPS } from '../../assets/css/settings/gaps';
 
 export const Container = styled.div`
     width: 100%;
-    height: 680px;
+    height: 98vh;
     background-color: ${COLORS.secondary};
     display: flex;
     flex-direction: column;
