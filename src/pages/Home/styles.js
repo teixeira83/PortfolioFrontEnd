@@ -16,12 +16,25 @@ export const ImageAbout = styled.img`
     margin-left: ${GAPS.bigger};
 `
 
-export const TextContainer = styled.div`
+export const ProfileContainer = styled.div`
     width: 60%;
+    height: 100%;
     margin-right: ${GAPS.bigger};
+    
+`
+
+export const TextContainer = styled.div`
 `
 
 export const Paragraph = styled.p`
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+`
+
+
+export const ProfilePic = styled.img`
+    width: 300px;
+    height: 250px;
+    display: flex;
+    margin: 85px auto;
 `
