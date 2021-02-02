@@ -11,7 +11,7 @@ import docker from '../../assets/img/docker.png';
 import ionic from '../../assets/img/ionic.png';
 import java from '../../assets/img/java.png';
 import spring from '../../assets/img/spring.png';
-import mongodb from '../../assets/img/mongodb.png';
+import mongodb from '../../assets/img/mongodb2.png';
 
 export default function Skills() {
     return (
