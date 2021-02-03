@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import { Logo, NavigationBar, NavList, NavListOption } from './styles';
 
 import logo from '../../assets/img/logo.png'
 
-export default class NavBar extends React.Component {
+export default class NavBar extends Component {
     
     constructor() {
         super();

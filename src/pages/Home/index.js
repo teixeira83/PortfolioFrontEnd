@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar, Banner, Portfolio, Skills, Contact } from '../../components/index';
+import { NavBar, Banner, Skills, Contact, Portfolio } from '../../components/index';
 import { AboutMeContainer, ImageAbout, ProfileContainer, Paragraph, ProfilePic, TextContainer } from './styles';
 import imageAbout from '../../assets/img/about.png';
 import profilePic from '../../assets/img/aboutprofilepic.png';
