@@ -10,13 +10,13 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
 `
 
 export const Title = styled.h1`
     color: ${COLORS.secondary};
     font-size:38px;
     font-weight: bold;
+    font-family: Roboto, sans-serif; 
 `
 
 export const NotebookImage = styled.img`

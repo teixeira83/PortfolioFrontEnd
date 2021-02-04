@@ -12,6 +12,7 @@ export const Container = styled.div`
 export const Title = styled.h1`
     font-size: 38px;
     font-weight: bold;
+    font-family: Roboto, sans-serif;
     text-align: center;
     padding-top: 80px;
     color: ${COLORS.secondary};

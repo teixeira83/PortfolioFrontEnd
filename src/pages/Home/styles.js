@@ -27,7 +27,7 @@ export const TextContainer = styled.div`
 `
 
 export const Paragraph = styled.p`
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
 `
 

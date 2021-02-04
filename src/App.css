@@ -1,13 +1,3 @@
-.active {
-    visibility: visible;
-    transition: all 0.2s;
-}
-
-.hidden {
-    visibility: hidden;
-    transition: all 0.2s;
-}
-
 .slick-track {
     height: 65vh;
 }

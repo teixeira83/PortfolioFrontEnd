@@ -9,8 +9,6 @@ export const NavigationBar = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
 `
 
 export const Logo = styled.img`
@@ -37,13 +35,4 @@ export const NavListOption = styled.a`
     margin-right: 10px;
     justify-content: center;
     align-items: center;
-
-    &:hover {
-        border-bottom: 2px solid ${COLORS.secondary};
-        font-size: 16px;
-        width: 110px;
-        background-color: ${COLORS.primary};
-        color: ${COLORS.secondary};
-        transition: 0.2s;
-    }
 `
