@@ -12,12 +12,6 @@ export const Container = styled.div`
     align-items: center;
 `
 
-export const Title = styled.h1`
-    color: ${COLORS.primary};
-    font-size: 38px;
-    font-family: Roboto, sans-serif;
-`
-
 export const SkillsContainer = styled.div`
     width: 75%;
     height: 400px;

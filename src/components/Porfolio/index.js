@@ -1,10 +1,11 @@
-import { Container, Title } from './styles';
+import { Container } from './styles';
 import { PortfolioSlider } from '../index';
+import { SectionTitle } from '../index';
 
 export default function Portfolio() {
     return (
         <Container id="portfolio">
-            <Title>Portfólio</Title>
+            <SectionTitle color='white' title='Portfólio'/>
             <PortfolioSlider />
         </Container>
     )

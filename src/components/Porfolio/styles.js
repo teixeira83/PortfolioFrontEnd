@@ -8,13 +8,3 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 `
-
-export const Title = styled.h1`
-    font-size: 38px;
-    font-weight: bold;
-    font-family: Roboto, sans-serif;
-    text-align: center;
-    padding-top: 80px;
-    color: ${COLORS.secondary};
-
-`
