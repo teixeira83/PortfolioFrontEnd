@@ -33,8 +33,8 @@ export const Paragraph = styled.p`
 
 
 export const ProfilePic = styled.img`
-    width: 300px;
-    height: 250px;
+    width: 200px;
+    height: 160px;
     display: flex;
-    margin: 85px auto;
+    margin: ${GAPS.medium} auto;
 `

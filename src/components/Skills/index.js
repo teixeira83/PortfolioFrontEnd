@@ -18,8 +18,8 @@ import mongodb from '../../assets/img/mongodb2.png';
 export default function Skills() {
     return (
         <React.Fragment>
-            <SectionTitle title='Habilidades' />
             <Container id="skills">
+                <SectionTitle title='Habilidades' />
                 <SkillsContainer>
                     <SkillSquare title="HTML" image={html}/>
                     <SkillSquare title="Javascript" image={js}/>
