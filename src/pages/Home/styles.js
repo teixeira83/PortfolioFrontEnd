@@ -4,8 +4,8 @@ import { GAPS } from '../../assets/css/settings/gaps';
 
 export const AboutMeContainer = styled.div`
     width: 100%;
-    height: 98vh;
-    background-color: ${COLORS.third};
+    height: 100vh;
+    background-color: ${COLORS.fourth};
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,11 +24,15 @@ export const ProfileContainer = styled.div`
 `
 
 export const TextContainer = styled.div`
+    height: 60%;
 `
 
 export const Paragraph = styled.p`
     font-family: Roboto, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: ${GAPS.small};
+    line-height: normal;
+
 `
 
 

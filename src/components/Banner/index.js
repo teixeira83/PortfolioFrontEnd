@@ -1,11 +1,12 @@
 import { Container, Title, NotebookImage } from './styles';
 import notebook from '../../assets/img/notebook.png';
+import { SectionTitle } from '../index';
 
 export default function Banner( ) {
     return (
         <Container>
-            <Title>Desenvolvedor Web</Title>
             <NotebookImage src={notebook} />
+            {/* <SectionTitle color='white' title='Desenvolvedor Web'/> */}
         </Container>
     )    
 }

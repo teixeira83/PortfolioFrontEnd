@@ -16,10 +16,11 @@ export const Title = styled.h1`
     color: ${COLORS.secondary};
     font-size:38px;
     font-weight: bold;
-    font-family: Roboto, sans-serif; 
+    font-family: Arial, sans-serif;
+    margin-bottom: ${GAPS.small} 
 `
 
 export const NotebookImage = styled.img`
     margin-left: 50px;
-    margin-top: ${GAPS.bigger};
+    margin-top: ${GAPS.big};
 `
