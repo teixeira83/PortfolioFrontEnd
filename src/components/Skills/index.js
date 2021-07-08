@@ -17,22 +17,21 @@ import mongodb from '../../assets/img/mongodb2.png';
 
 export default function Skills() {
     return (
-        <React.Fragment>
-            <Container id="skills">
-                <SectionTitle title='Habilidades' />
-                <SkillsContainer>
-                    <SkillSquare title="HTML" image={html}/>
-                    <SkillSquare title="Javascript" image={js}/>
-                    <SkillSquare title="CSS" image={css}/>
-                    <SkillSquare title="React" image={react}/>
-                    <SkillSquare title="NodeJs" image={node}/>
-                    <SkillSquare title="Docker" image={docker}/>
-                    <SkillSquare title="Ionic" image={ionic}/>
-                    <SkillSquare title="Java" image={java}/>
-                    <SkillSquare title="Spring" image={spring}/>
-                    <SkillSquare title="MongoDb" image={mongodb}/>
-                </SkillsContainer>
-            </Container>
-        </React.Fragment>
+        <Container id="skills">
+            <SectionTitle title='Habilidades' />
+            <SkillsContainer>
+                <SkillSquare title="HTML" image={html}/>
+                <SkillSquare title="Javascript" image={js}/>
+                <SkillSquare title="CSS" image={css}/>
+                <SkillSquare title="React" image={react}/>
+                <SkillSquare title="NodeJs" image={node}/>
+                <SkillSquare title="Docker" image={docker}/>
+                <SkillSquare title="Ionic" image={ionic}/>
+                <SkillSquare title="Java" image={java}/>
+                <SkillSquare title="Spring" image={spring}/>
+                <SkillSquare title="MongoDb" image={mongodb}/>
+            </SkillsContainer>
+        </Container>
+        
     )
 }
