@@ -4,7 +4,7 @@ import { GAPS } from '../../assets/css/settings/gaps';
 
 export const AboutMeContainer = styled.div`
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: ${COLORS.fourth};
     display: flex;
     justify-content: space-between;
@@ -12,7 +12,7 @@ export const AboutMeContainer = styled.div`
 `
 
 export const ImageAbout = styled.img`
-    height: 90%;
+    height: 80vh;
     margin-left: ${GAPS.bigger};
 `
 
