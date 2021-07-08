@@ -18,21 +18,80 @@ export const Logo = styled.img`
 `
 
 export const NavList = styled.ul`
-    margin-right: ${GAPS.big};
-    height: 40px;
+    margin-right: ${GAPS.medium};
+    list-style-type: none;
+    padding: 0;
     display: flex;
     align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+`
+export const NavListOptionLink = styled.a`
+    color: ${COLORS.secondary};
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 0px;
+    font-family: Roboto, sans-serif;
+    width: 100px;
+    text-align: center;
+    &:before {
+        content: "";
+        position: absolute;
+        height: 33.33%;
+        width: 0;
+        background-color: ${COLORS.secondary};
+        bottom: 66.66%;
+        left: 0px;
+        transition: all 0.5s;
+    }
+    &:hover {
+        color: ${COLORS.primary};
+    }
 `
 
-export const NavListOption = styled.a`
-    text-decoration: none;
-    color: ${COLORS.secondary};
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    height: 70%;
+export const NavListOption = styled.li`
+    position: relative;
+    padding: 0 20px;
+    height: 60%;
     display: flex;
-    margin-right: 10px;
-    justify-content: center;
-    align-items: center;
+    &:before {
+        content: "";
+        position: absolute;
+        height: 33.33%;
+        width: 0;
+        background-color: ${COLORS.secondary};
+        right: 0;
+        z-index: 0;
+        top: 33.33%;
+        transition: all 0.5s;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        height: 33.33%;
+        width: 0;
+        background-color: ${COLORS.secondary};
+        left: 0px;
+        z-index: 0;
+        bottom: 0;
+        transition: all 0.5s;
+    }
+    &:hover:before,
+    :hover:after,
+    :hover {
+        width: 100%;
+    }
+    &:hover ${NavListOptionLink}:before {
+        width: 100%;
+    }
+    &:hover ${NavListOptionLink}:nth-child(n){
+        color: ${COLORS.primary};
+    }
 `
+
+
+

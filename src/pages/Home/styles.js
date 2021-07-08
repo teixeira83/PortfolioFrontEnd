@@ -20,6 +20,9 @@ export const ProfileContainer = styled.div`
     width: 60%;
     height: 100%;
     margin-right: ${GAPS.bigger};
+    display: flex;
+    flex-direction: column;
+    margin: ${GAPS.medium} auto ${GAPS.bigger} auto;
     
 `
 
