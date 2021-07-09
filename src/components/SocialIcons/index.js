@@ -9,9 +9,9 @@ import twitter from '../../assets/img/twitter.png';
 export default function SocialIcons() {
     return (
         <Container>
-            <a href="https://www.facebook.com/rafaeldeteixeira">
+            {/* <a href="https://www.facebook.com/rafaeldeteixeira">
                 <Icon src={facebook} />
-            </a>
+            </a> */}
             <a href="https://www.instagram.com/rafaelteixeira91">
                 <Icon src={whatsapp} />
             </a>
@@ -21,9 +21,9 @@ export default function SocialIcons() {
             <a href="https://www.linkedin.com/in/rafaelalvesdemedeirosteixeira/">
                 <Icon src={linkedin} />
             </a>
-            <a href="https://twitter.com/Teixeira_83">
+            {/* <a href="https://twitter.com/Teixeira_83">
                 <Icon src={twitter} />
-            </a>
+            </a> */}
         </Container>
     )
 }

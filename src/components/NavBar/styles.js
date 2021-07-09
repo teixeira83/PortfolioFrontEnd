@@ -116,6 +116,11 @@ export const MenuBar = styled.span`
     transition: all 0.3s ease-in-out;
     background-color: #ffffff;
 `
+export const MenuIcon = styled.img`
 
+    margin-right: 20px;
 
-
+    @media(min-width: 720px) {
+        display: none;
+    }
+`
