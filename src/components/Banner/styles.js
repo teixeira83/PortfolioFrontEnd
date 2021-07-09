@@ -23,4 +23,6 @@ export const Title = styled.h1`
 export const NotebookImage = styled.img`
     margin-left: 50px;
     margin-top: ${GAPS.big};
+    width: 50%;
+    height: 40%;
 `

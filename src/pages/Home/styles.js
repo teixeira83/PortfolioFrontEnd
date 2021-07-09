@@ -4,30 +4,29 @@ import { GAPS } from '../../assets/css/settings/gaps';
 
 export const AboutMeContainer = styled.div`
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: ${COLORS.fourth};
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: ${GAPS.small};
 `
 
 export const ImageAbout = styled.img`
-    height: 80vh;
-    margin-left: ${GAPS.bigger};
+    height: 90vh;
+    margin: auto;
 `
 
 export const ProfileContainer = styled.div`
     width: 60%;
-    height: 100%;
-    margin-right: ${GAPS.bigger};
+    height: auto;
     display: flex;
     flex-direction: column;
-    margin: ${GAPS.medium} auto ${GAPS.bigger} auto;
-    
+    margin: auto;
 `
 
 export const TextContainer = styled.div`
-    height: 60%;
+    height: 100%;
 `
 
 export const Paragraph = styled.p`

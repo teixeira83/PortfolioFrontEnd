@@ -1,17 +1,7 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 import { Container } from './styles';
-import { PortfolioSquare } from '../index';
-
-import portfolioUm from '../../assets/img/portfolio01.png';
-import portfolioDois from '../../assets/img/portfolio02.png';
-import portfolioTres from '../../assets/img/portfolio03.png';
-import portfolioQuatro from '../../assets/img/portfolio04.png';
-import portfolioCinco from '../../assets/img/portfolio05.png';
-import portfolioSeis from '../../assets/img/portfolio06.png';
-import portfolioSete from '../../assets/img/portfolio07.png';
-import portfolioOito from '../../assets/img/portfolio08.png';
-import portfolioNove from '../../assets/img/portfolio09.png';
+// import { PortfolioSquare } from '../index';
 
 export default class PortfolioSlider extends Component {
 
@@ -29,7 +19,7 @@ export default class PortfolioSlider extends Component {
     return (
         <Container>          
             <Slider {...settings} style={{height: "70vh", padding: "30px"}}>
-                <PortfolioSquare image={portfolioUm} />
+                {/* <PortfolioSquare image={portfolioUm} />
                 <PortfolioSquare image={portfolioDois} />
                 <PortfolioSquare image={portfolioTres} />
                 <PortfolioSquare image={portfolioQuatro} />
@@ -37,7 +27,7 @@ export default class PortfolioSlider extends Component {
                 <PortfolioSquare image={portfolioSeis} />
                 <PortfolioSquare image={portfolioSete} />
                 <PortfolioSquare image={portfolioOito} />
-                <PortfolioSquare image={portfolioNove} />
+                <PortfolioSquare image={portfolioNove} /> */}
             </Slider>
         </Container>
     );

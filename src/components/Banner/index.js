@@ -1,6 +1,6 @@
-import { Container, Title, NotebookImage } from './styles';
+import { Container, NotebookImage } from './styles';
 import notebook from '../../assets/img/notebook.png';
-import { SectionTitle } from '../index';
+// import { SectionTitle } from '../index';
 
 export default function Banner( ) {
     return (

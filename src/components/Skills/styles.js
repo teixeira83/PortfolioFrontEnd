@@ -16,6 +16,6 @@ export const SkillsContainer = styled.div`
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    margin: auto auto 50px auto;
+    margin: ${GAPS.medium} auto;
     justify-content: center;
 `
