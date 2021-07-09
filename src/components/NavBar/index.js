@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Logo, NavigationBar, NavList, NavListOption, NavListOptionLink } from './styles';
+import { Logo, MenuBar, MenuContainer, NavigationBar, NavList, NavListOption, NavListOptionLink } from './styles';
 
 import logo from '../../assets/img/logo.png'
 
@@ -22,6 +22,11 @@ export default function NavBar() {
                     <NavListOptionLink href="#contact">CONTATOS</NavListOptionLink>
                 </NavListOption>
             </NavList>
+            <MenuContainer>
+                <MenuBar />
+                <MenuBar />
+                <MenuBar />
+            </MenuContainer>
         </NavigationBar>
     )    
 }

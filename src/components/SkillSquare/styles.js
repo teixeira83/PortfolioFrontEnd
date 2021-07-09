@@ -3,7 +3,7 @@ import { COLORS } from '../../assets/css/settings/colors';
 import { GAPS } from '../../assets/css/settings/gaps';
 
 export const Container = styled.div`
-    min-width: 150px;
+    width: 150px;
     height: 150px;
     background-color: ${COLORS.secondary};
     box-shadow: 0 0 1em grey;
@@ -12,6 +12,10 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     margin: ${GAPS.small} ${GAPS.small};
+
+    @media (max-width: 720px) {
+        margin: ${GAPS.smaller} ${GAPS.smaller};
+    }
 `
 
 export const Title = styled.span`

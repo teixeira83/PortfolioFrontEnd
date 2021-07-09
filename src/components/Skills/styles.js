@@ -13,7 +13,7 @@ export const Container = styled.div`
 `
 
 export const SkillsContainer = styled.div`
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     margin: ${GAPS.medium} auto;

@@ -5,10 +5,10 @@ export default function Contact() {
     return (
         <Container id="contact">
             <SectionTitle color='white' title='Contatos'/>
-            <Text>
-                Resta alguma dúvida? Pode entrar em contato comigo preenchendo os campos abaixo 
-            </Text>
             <FormContainer>
+                <Text>
+                    Resta alguma dúvida? Pode entrar em contato comigo preenchendo os campos abaixo.     
+                </Text>
                 <FormContact />
             </FormContainer>
             <SocialIcons />

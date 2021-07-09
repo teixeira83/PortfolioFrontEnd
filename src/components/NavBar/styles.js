@@ -14,7 +14,7 @@ export const NavigationBar = styled.nav`
 export const Logo = styled.img`
     width: 120px;
     height: 60px;
-    margin-left: ${GAPS.big};
+    margin-left: ${GAPS.small};
 `
 
 export const NavList = styled.ul`
@@ -56,7 +56,7 @@ export const NavListOptionLink = styled.a`
 export const NavListOption = styled.li`
     position: relative;
     padding: 0 20px;
-    height: 60%;
+    height: 50%;
     display: flex;
     &:before {
         content: "";
@@ -91,6 +91,30 @@ export const NavListOption = styled.li`
     &:hover ${NavListOptionLink}:nth-child(n){
         color: ${COLORS.primary};
     }
+
+    @media(max-width: 720px) {
+        display: none;
+    }
+`
+
+export const MenuContainer = styled.div`
+    height: 100%;
+    margin-top: 50px;
+    margin-right: ${GAPS.small};
+    
+    @media(min-width: 720px) {
+        display: none;
+    }
+`
+
+export const MenuBar = styled.span`
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
 `
 
 

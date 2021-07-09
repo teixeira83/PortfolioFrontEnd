@@ -5,6 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function App() {
   return (
-    <Home />
+      <Home />
   );
 }

@@ -15,6 +15,10 @@ export const AboutMeContainer = styled.div`
 export const ImageAbout = styled.img`
     height: 90vh;
     margin: auto;
+    
+    @media (max-width: 720px) {
+        display: none;
+    }
 `
 
 export const ProfileContainer = styled.div`
