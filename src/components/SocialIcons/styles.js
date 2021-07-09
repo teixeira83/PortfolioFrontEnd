@@ -4,15 +4,17 @@ import { GAPS } from '../../assets/css/settings/gaps';
 
 export const Container = styled.div`
     width: 100%;
+    height: ${GAPS.big};
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: ${COLORS.primary};
-    
+    position: absolute;
+    bottom: 0;
 `
 
 export const Icon = styled.img`
-    width: 40;
+    width: 40px;
     height: 40px;
-    margin: 0 ${GAPS.small} ${GAPS.small} 0;
+    margin: auto ${GAPS.smaller};
 `

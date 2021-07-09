@@ -5,7 +5,9 @@ export default function Contact() {
     return (
         <Container id="contact">
             <SectionTitle color='white' title='Contatos'/>
-            <Text>Fique a vontade para entrar em contato comigo. Pode ser por e-mail utilizando os campos abaixo ou por alguma das minhas redes sociais. </Text>
+            <Text>
+                Resta alguma dúvida? Pode entrar em contato comigo preenchendo os campos abaixo 
+            </Text>
             <FormContainer>
                 <FormContact />
             </FormContainer>

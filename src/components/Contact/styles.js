@@ -3,11 +3,13 @@ import { COLORS } from '../../assets/css/settings/colors';
 
 export const Container = styled.div`
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
+    height: auto;
     background-color: ${COLORS.primary};
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 `
 
 export const Text = styled.p`
@@ -21,7 +23,5 @@ export const Text = styled.p`
 export const FormContainer = styled.div`
     margin-top: 60px;
     width: 80%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
+    height: 40%;
 `
