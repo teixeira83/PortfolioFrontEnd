@@ -18,8 +18,20 @@ export const Text = styled.p`
     font-size: 20px;
     width: 100%;
     line-height: 25px;
-    margin: ${GAPS.small} auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
+
+    &:after {
+        content: "";
+        position: absolute;
+        width: 25%;
+        height: 3px;
+        display: block;
+        margin: ${GAPS.medium} auto;
+        background-color: ${COLORS.secondary};
+        
+    }
 `
 
 export const FormContainer = styled.div`

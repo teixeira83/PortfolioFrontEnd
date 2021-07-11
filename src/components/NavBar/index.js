@@ -8,8 +8,6 @@ import closeIcon from '../../assets/img/closemenu.png';
 
 import styled from 'styled-components';
 
-import { COLORS } from '../../assets/css/settings/colors';
-
 export default function NavBar() {
 
     const [open, setOpen] = useState(false);

@@ -11,6 +11,7 @@ export const Container = styled.div`
     background-color: ${COLORS.primary};
     position: absolute;
     bottom: 0;
+    font-family: 'Roboto', sans-serif;
 `
 
 export const Icon = styled.img`
