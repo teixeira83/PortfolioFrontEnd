@@ -21,17 +21,6 @@ export const Text = styled.p`
     text-align: center;
     display: flex;
     justify-content: center;
-
-    &:after {
-        content: "";
-        position: absolute;
-        width: 25%;
-        height: 3px;
-        display: block;
-        margin: ${GAPS.medium} auto;
-        background-color: ${COLORS.secondary};
-        
-    }
 `
 
 export const FormContainer = styled.div`

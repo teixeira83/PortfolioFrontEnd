@@ -8,8 +8,17 @@ export const Container = styled.div`
     justify-content: center;
     text-align: center;
     width: 100%;
-    margin-top: ${GAPS.medium};
-    margin-bottom: ${GAPS.medium};
+    margin: ${GAPS.small} auto;
+    padding-bottom: ${GAPS.small};
+    &:before {
+        content: "";
+        width: 25%;
+        height: 3px;
+        display: block;
+        background-color: ${COLORS.secondary};
+        margin: 0 auto ${GAPS.small} auto;
+    }
+    
     @media (max-width: 720px) {
         flex-direction: column;
     }
@@ -35,12 +44,22 @@ export const TextArea = styled.textarea`
 export const InformationContainer = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: ${GAPS.smaller} 0 ${GAPS.smaller};
+    justify-content: space-between;
+    margin: ${GAPS.smaller} ${GAPS.big};
+    
+    @media (max-width: 900px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width: 720px) {
+        margin: ${GAPS.smaller} 0;
+    }
 `
 
 export const FormInput = styled.input`
-    width: 100%;
+    width: 95%;
     height: 40px;
     font-size: 14px;
     border: none;
@@ -52,6 +71,11 @@ export const FormInput = styled.input`
     }
     &[type=number] {
         -moz-appearance: textfield; 
+    }
+    &::-webkit-outer-spin-button,
+    ::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
     }
 `
 
@@ -74,7 +98,16 @@ export const FormButton = styled.input`
 `
 
 export const LabelInput = styled.label`
-    width: 30%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 ${GAPS.small};
+
+    @media (max-width: 900px) {
+        margin-bottom: 10px;
+        width: 80%;
+        justify-content: center;
+    }
 `
     
 export const SpanInput = styled.span`
