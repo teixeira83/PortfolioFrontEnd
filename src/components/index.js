@@ -9,3 +9,4 @@ export { default as SocialIcons } from './SocialIcons';
 export { default as Portfolio } from './Porfolio';
 export { default as PortfolioSlider } from './PortfolioSlider';
 export { default as PortfolioSquare } from './PortfolioSquare';
+export { default as Loader } from './Loader';

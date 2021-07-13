@@ -1,6 +1,7 @@
 import { Container, FormContainer, Text } from './styles';
 import { FormContact, SocialIcons } from '../index';
 import { SectionTitle } from '../index';
+
 export default function Contact() {
     return (
         <Container id="contact">
