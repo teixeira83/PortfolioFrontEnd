@@ -31,13 +31,13 @@ export const NavListOptionLink = styled.a`
     z-index: 1;
     color: white;
     text-decoration: none;
-    font-family: 'Poppins',sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 500;
     font-size: 16px;
     padding: 15px 0px;
-    font-family: Roboto, sans-serif;
     width: 100px;
     text-align: center;
+
     &:before {
         content: "";
         position: absolute;
@@ -48,6 +48,7 @@ export const NavListOptionLink = styled.a`
         left: 0px;
         transition: all 0.5s;
     }
+    
     &:hover {
         color: ${COLORS.primary};
     }
