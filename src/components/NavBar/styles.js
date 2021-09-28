@@ -4,21 +4,19 @@ import { GAPS } from '../../assets/css/settings/gaps';
 
 export const NavigationBar = styled.nav`
     width: 100%;
-    height: 80px;
-    background-color: ${COLORS.primary};
+    height: 120px;
+    background-color: ${COLORS.greyLight};
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 `
 
 export const Logo = styled.img`
     width: 120px;
     height: 60px;
-    margin-left: ${GAPS.small};
 `
 
 export const NavList = styled.ul`
-    margin-right: ${GAPS.medium};
     list-style-type: none;
     padding: 0;
     display: flex;
@@ -32,8 +30,7 @@ export const NavListOptionLink = styled.a`
     color: white;
     text-decoration: none;
     font-family: Poppins, sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     padding: 15px 0px;
     width: 100px;
     text-align: center;
@@ -68,18 +65,18 @@ export const NavListOption = styled.li`
         right: 0;
         z-index: 0;
         top: 33.33%;
-        transition: all 0.5s;
+        transition: all 0.9s;
     }
     &:after {
         content: "";
         position: absolute;
-        height: 33.33%;
+        height: 35%;
         width: 0;
         background-color: ${COLORS.secondary};
         left: 0px;
         z-index: 0;
         bottom: 0;
-        transition: all 0.5s;
+        transition: all 0.9s;
     }
     &:hover:before,
     :hover:after,
@@ -99,13 +96,11 @@ export const NavListOption = styled.li`
 `
 
 export const MenuContainer = styled.div`
+    display: flex;
+    width: 80%;
     height: 100%;
-    margin-top: 50px;
-    margin-right: ${GAPS.small};
-    
-    @media(min-width: 720px) {
-        display: none;
-    }
+    justify-content: space-between;
+    align-items: center;
 `
 
 export const MenuBar = styled.span`
@@ -118,9 +113,6 @@ export const MenuBar = styled.span`
     background-color: #ffffff;
 `
 export const MenuIcon = styled.img`
-
-    margin-right: 20px;
-
     @media(min-width: 720px) {
         display: none;
     }
